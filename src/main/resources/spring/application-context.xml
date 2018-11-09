@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config />
+
+    <context:component-scan base-package="org.sch.issecurity.iam.tools.ADSync"/>
+
+    <import resource="classpath:spring/jpa-context.xml"/>
+
+    <bean class="org.adsync4j.impl.ActiveDirectorySyncServiceImpl">
+        <constructor-arg name="dcaKey" value="default"/>
+        <constructor-arg name="ldapClient" ref="ldapClient"/>
+        <constructor-arg name="affiliationRepository" ref="affiliationRepository"/>
+    </bean>
+
+    <bean id="ldapClient" class="org.adsync4j.unboundid.UnboundIDLdapClient">
+        <property name="pageSize" value="10"/>
+        <constructor-arg name="connectionFactory">
+            <bean class="org.adsync4j.unboundid.DefaultUnboundIDConnectionFactory"
+                  c:dcaKey="default"
+                  c:affiliationRepository-ref="affiliationRepository"/>
+        </constructor-arg>
+    </bean>
+
+</beans>			

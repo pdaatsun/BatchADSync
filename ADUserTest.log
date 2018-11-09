@@ -1,0 +1,84 @@
+2017-02-24 21:38:24,020 INFO   main [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
+2017-02-24 21:38:24,045 INFO   main [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-02-24 21:38:24,063 INFO   main [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+2017-02-24 21:38:27,776 INFO   main [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-02-24 21:38:43,926 INFO   main [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-24 21:38:46,724 INFO   main [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2017-02-24 21:38:52,978 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000229: Running schema validator
+2017-02-24 21:38:52,981 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000102: Fetching database metadata
+2017-02-24 21:38:53,699 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER
+2017-02-24 21:38:53,701 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, usnchanged]
+2017-02-24 21:38:53,928 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER_CL
+2017-02-24 21:38:53,929 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, changetype, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, clid, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, syncedat, usnchanged]
+2017-02-24 21:38:54,173 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.DomainControllerAffiliation
+2017-02-24 21:38:54,176 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [attributestosync, rootdn, highestcommittedusn, binduser, dcakey, bindpassword, searchfilter, invocationid, syncbasedn, url, searchdeletedobjectsfilter]
+2017-02-24 21:52:54,150 INFO   main [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
+2017-02-24 21:52:54,163 INFO   main [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-02-24 21:52:54,184 INFO   main [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+2017-02-24 21:52:57,656 INFO   main [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-02-24 21:53:07,360 INFO   main [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-24 21:53:09,493 INFO   main [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2017-02-24 21:53:15,997 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000229: Running schema validator
+2017-02-24 21:53:15,997 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000102: Fetching database metadata
+2017-02-24 21:53:16,676 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER
+2017-02-24 21:53:16,677 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, usnchanged]
+2017-02-24 21:53:17,015 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER_CL
+2017-02-24 21:53:17,015 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, changetype, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, clid, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, syncedat, usnchanged]
+2017-02-24 21:53:17,308 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.DomainControllerAffiliation
+2017-02-24 21:53:17,310 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [attributestosync, rootdn, highestcommittedusn, binduser, dcakey, bindpassword, searchfilter, invocationid, syncbasedn, url, searchdeletedobjectsfilter]
+2017-02-24 21:58:04,130 INFO   main [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
+2017-02-24 21:58:04,149 INFO   main [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-02-24 21:58:04,307 INFO   main [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+2017-02-24 21:58:09,780 INFO   main [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-02-24 21:58:18,936 INFO   main [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-24 21:58:21,130 INFO   main [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2017-02-24 21:58:29,744 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000229: Running schema validator
+2017-02-24 21:58:29,745 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000102: Fetching database metadata
+2017-02-24 21:58:30,355 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER
+2017-02-24 21:58:30,357 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, usnchanged]
+2017-02-24 21:58:30,685 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER_CL
+2017-02-24 21:58:30,685 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, changetype, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, clid, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, syncedat, usnchanged]
+2017-02-24 21:58:30,848 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.DomainControllerAffiliation
+2017-02-24 21:58:30,850 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [attributestosync, rootdn, highestcommittedusn, binduser, dcakey, bindpassword, searchfilter, invocationid, syncbasedn, url, searchdeletedobjectsfilter]
+2017-02-25 21:03:06,255 INFO   main [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
+2017-02-25 21:03:06,273 INFO   main [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-02-25 21:03:06,296 INFO   main [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+2017-02-25 21:03:09,471 INFO   main [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-02-25 21:03:16,955 INFO   main [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-25 21:03:20,402 INFO   main [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2017-02-25 21:03:27,732 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000229: Running schema validator
+2017-02-25 21:03:27,732 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000102: Fetching database metadata
+2017-02-25 21:03:29,675 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER
+2017-02-25 21:03:29,688 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, usnchanged]
+2017-02-25 21:03:30,035 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER_CL
+2017-02-25 21:03:30,037 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, changetype, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, clid, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, syncedat, usnchanged]
+2017-02-25 21:03:30,767 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.DomainControllerAffiliation
+2017-02-25 21:03:30,768 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [attributestosync, rootdn, highestcommittedusn, binduser, dcakey, bindpassword, searchfilter, invocationid, syncbasedn, url, searchdeletedobjectsfilter]
+2017-02-25 21:44:13,388 INFO   main [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
+2017-02-25 21:44:13,414 INFO   main [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-02-25 21:44:13,431 INFO   main [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+2017-02-25 21:44:17,072 INFO   main [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-02-25 21:44:32,631 INFO   main [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-25 21:44:36,973 INFO   main [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2017-02-25 21:44:48,962 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000229: Running schema validator
+2017-02-25 21:44:48,962 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000102: Fetching database metadata
+2017-02-25 21:44:49,757 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER
+2017-02-25 21:44:49,759 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, usnchanged]
+2017-02-25 21:44:49,961 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER_CL
+2017-02-25 21:44:49,962 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, changetype, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, clid, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, syncedat, usnchanged]
+2017-02-25 21:44:50,292 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.DomainControllerAffiliation
+2017-02-25 21:44:50,293 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [attributestosync, rootdn, highestcommittedusn, binduser, dcakey, bindpassword, searchfilter, invocationid, syncbasedn, url, searchdeletedobjectsfilter]
+2017-02-25 21:49:00,083 INFO   main [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
+2017-02-25 21:49:00,111 INFO   main [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-02-25 21:49:00,164 INFO   main [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+2017-02-25 21:49:04,201 INFO   main [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-02-25 21:49:16,797 INFO   main [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-25 21:49:21,349 INFO   main [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2017-02-25 21:49:36,239 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000229: Running schema validator
+2017-02-25 21:49:36,239 INFO   main [org.hibernate.tool.hbm2ddl.SchemaValidator] HHH000102: Fetching database metadata
+2017-02-25 21:49:37,476 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER
+2017-02-25 21:49:37,486 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, usnchanged]
+2017-02-25 21:49:37,698 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.AD_USER_CL
+2017-02-25 21:49:37,701 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [mail, employeenumber, proxyaddresses, usncreated, description, whenchanged, title, employeeid, homedrive, homemdb, homedirectory, givenname, changetype, objectguid, company, whencreated, sn, department, info, employeetype, manager, extensionattribute4, extensionattribute3, clid, directreports, samaccountname, accountexpires, distinguishedname, homemta, memberof, syncedat, usnchanged]
+2017-02-25 21:49:37,945 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: ADUsers.dbo.DomainControllerAffiliation
+2017-02-25 21:49:37,947 INFO   main [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [attributestosync, rootdn, highestcommittedusn, binduser, dcakey, bindpassword, searchfilter, invocationid, syncbasedn, url, searchdeletedobjectsfilter]

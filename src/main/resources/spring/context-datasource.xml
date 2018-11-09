@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:batch="http://www.springframework.org/schema/batch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    	<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+    	<property name="url" value="jdbc:sqlserver://LPFORDIAMORA02:1433;DatabaseName=ADUsers;" />
+    	<property name="username" value="IAMDEV" />
+    	<property name="password" value="admin123" />
+	</bean>
+
+</beans>			

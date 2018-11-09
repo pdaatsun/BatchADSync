@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:ldap="http://www.springframework.org/schema/ldap"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/ldap
+	   http://www.springframework.org/schema/ldap/spring-ldap.xsd">
+
+    <bean id="simpleDirContextAuthenticationStrategy" class="org.springframework.ldap.core.support.SimpleDirContextAuthenticationStrategy" />
+
+    <ldap:context-source url="ldap://10.251.204.57:389"
+                         base="OU=Accounts,DC=LPCH,DC=NET"
+                         username="CN=IAM1\, POC1,OU=IT,OU=Accounts,DC=LPCH,DC=NET"
+                         password="LPCH@4100"
+                         authentication-strategy-ref="simpleDirContextAuthenticationStrategy"
+                         native-pooling="true"/>
+
+    <!-- A bean identifier, used for referring to the bean elsewhere in the context. Default is "ldapTemplate". -->
+    <ldap:ldap-template id="ldapTemplate"/>
+</beans>
